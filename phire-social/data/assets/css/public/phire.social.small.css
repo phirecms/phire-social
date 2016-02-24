@@ -1,0 +1,421 @@
+/**
+ * Social Module Public Style Sheet for Phire CMS 2
+ */
+
+/* 32x32 */
+.social-media-32 {
+    clear: both;
+    margin: 0 0 25px 0;
+    padding: 0;
+    height: 32px;
+    overflow: auto;
+}
+
+.social-media-32 > a {
+    margin: 0 10px 0 0;
+    padding: 0;
+    display: block;
+    float: left;
+    width: 32px;
+    height: 32px;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-indent: -9999px;
+}
+
+.social-media-64 > a:last-child {
+    margin: 0;
+}
+
+/* 32 shadow */
+.facebook-32-shadow {
+    background-image: url(../../img/32/shadow/facebook.png);
+}
+
+.twitter-32-shadow {
+    background-image: url(../../img/32/shadow/twitter.png);
+}
+
+.instagram-32-shadow {
+    background-image: url(../../img/32/shadow/instagram.png);
+}
+
+.google-32-shadow {
+    background-image: url(../../img/32/shadow/google.png);
+}
+
+.youtube-32-shadow {
+    background-image: url(../../img/32/shadow/youtube.png);
+}
+
+.vimeo-32-shadow {
+    background-image: url(../../img/32/shadow/vimeo.png);
+}
+
+.pinterest-32-shadow {
+    background-image: url(../../img/32/shadow/pinterest.png);
+}
+
+.linkedin-32-shadow {
+    background-image: url(../../img/32/shadow/linkedin.png);
+}
+
+.flickr-32-shadow {
+    background-image: url(../../img/32/shadow/flickr.png);
+}
+
+.yelp-32-shadow {
+    background-image: url(../../img/32/shadow/yelp.png);
+}
+
+.vine-32-shadow {
+    background-image: url(../../img/32/shadow/vine.png);
+}
+
+.blog-32-shadow {
+    background-image: url(../../img/32/shadow/blog.png);
+}
+
+/* 32 flat */
+.facebook-32-flat {
+    background-image: url(../../img/32/flat/facebook.png);
+}
+
+.twitter-32-flat {
+    background-image: url(../../img/32/flat/twitter.png);
+}
+
+.instagram-32-flat {
+    background-image: url(../../img/32/flat/instagram.png);
+}
+
+.google-32-flat {
+    background-image: url(../../img/32/flat/google.png);
+}
+
+.youtube-32-flat {
+    background-image: url(../../img/32/flat/youtube.png);
+}
+
+.vimeo-32-flat {
+    background-image: url(../../img/32/flat/vimeo.png);
+}
+
+.pinterest-32-flat {
+    background-image: url(../../img/32/flat/pinterest.png);
+}
+
+.linkedin-32-flat {
+    background-image: url(../../img/32/flat/linkedin.png);
+}
+
+.flickr-32-flat {
+    background-image: url(../../img/32/flat/flickr.png);
+}
+
+.yelp-32-flat {
+    background-image: url(../../img/32/flat/yelp.png);
+}
+
+.vine-32-flat {
+    background-image: url(../../img/32/flat/vine.png);
+}
+
+.blog-32-flat {
+    background-image: url(../../img/32/flat/blog.png);
+}
+
+/* 32 square */
+.facebook-32-square {
+    background-image: url(../../img/32/square/facebook.png);
+}
+
+.twitter-32-square {
+    background-image: url(../../img/32/square/twitter.png);
+}
+
+.instagram-32-square {
+    background-image: url(../../img/32/square/instagram.png);
+}
+
+.google-32-square {
+    background-image: url(../../img/32/square/google.png);
+}
+
+.youtube-32-square {
+    background-image: url(../../img/32/square/youtube.png);
+}
+
+.vimeo-32-square {
+    background-image: url(../../img/32/square/vimeo.png);
+}
+
+.pinterest-32-square {
+    background-image: url(../../img/32/square/pinterest.png);
+}
+
+.linkedin-32-square {
+    background-image: url(../../img/32/square/linkedin.png);
+}
+
+.flickr-32-square {
+    background-image: url(../../img/32/square/flickr.png);
+}
+
+.yelp-32-square {
+    background-image: url(../../img/32/square/yelp.png);
+}
+
+.vine-32-square {
+    background-image: url(../../img/32/square/vine.png);
+}
+
+.blog-32-square {
+    background-image: url(../../img/32/square/blog.png);
+}
+
+/* 32 circle */
+.facebook-32-circle {
+    background-image: url(../../img/32/circle/facebook.png);
+}
+
+.twitter-32-circle {
+    background-image: url(../../img/32/circle/twitter.png);
+}
+
+.instagram-32-circle {
+    background-image: url(../../img/32/circle/instagram.png);
+}
+
+.google-32-circle {
+    background-image: url(../../img/32/circle/google.png);
+}
+
+.youtube-32-circle {
+    background-image: url(../../img/32/circle/youtube.png);
+}
+
+.vimeo-32-circle {
+    background-image: url(../../img/32/circle/vimeo.png);
+}
+
+.pinterest-32-circle {
+    background-image: url(../../img/32/circle/pinterest.png);
+}
+
+.linkedin-32-circle {
+    background-image: url(../../img/32/circle/linkedin.png);
+}
+
+.flickr-32-circle {
+    background-image: url(../../img/32/circle/flickr.png);
+}
+
+.yelp-32-circle {
+    background-image: url(../../img/32/circle/yelp.png);
+}
+
+.vine-32-circle {
+    background-image: url(../../img/32/circle/vine.png);
+}
+
+.blog-32-circle {
+    background-image: url(../../img/32/circle/blog.png);
+}
+
+/* 32 color */
+.facebook-32-color {
+    background-image: url(../../img/32/color/facebook.png);
+}
+
+.twitter-32-color {
+    background-image: url(../../img/32/color/twitter.png);
+}
+
+.instagram-32-color {
+    background-image: url(../../img/32/color/instagram.png);
+}
+
+.google-32-color {
+    background-image: url(../../img/32/color/google.png);
+}
+
+.youtube-32-color {
+    background-image: url(../../img/32/color/youtube.png);
+}
+
+.vimeo-32-color {
+    background-image: url(../../img/32/color/vimeo.png);
+}
+
+.pinterest-32-color {
+    background-image: url(../../img/32/color/pinterest.png);
+}
+
+.linkedin-32-color {
+    background-image: url(../../img/32/color/linkedin.png);
+}
+
+.flickr-32-color {
+    background-image: url(../../img/32/color/flickr.png);
+}
+
+.yelp-32-color {
+    background-image: url(../../img/32/color/yelp.png);
+}
+
+.vine-32-color {
+    background-image: url(../../img/32/color/vine.png);
+}
+
+.blog-32-color {
+    background-image: url(../../img/32/color/blog.png);
+}
+
+/* 32 black */
+.facebook-32-black {
+    background-image: url(../../img/32/black/facebook.png);
+}
+
+.twitter-32-black {
+    background-image: url(../../img/32/black/twitter.png);
+}
+
+.instagram-32-black {
+    background-image: url(../../img/32/black/instagram.png);
+}
+
+.google-32-black {
+    background-image: url(../../img/32/black/google.png);
+}
+
+.youtube-32-black {
+    background-image: url(../../img/32/black/youtube.png);
+}
+
+.vimeo-32-black {
+    background-image: url(../../img/32/black/vimeo.png);
+}
+
+.pinterest-32-black {
+    background-image: url(../../img/32/black/pinterest.png);
+}
+
+.linkedin-32-black {
+    background-image: url(../../img/32/black/linkedin.png);
+}
+
+.flickr-32-black {
+    background-image: url(../../img/32/black/flickr.png);
+}
+
+.yelp-32-black {
+    background-image: url(../../img/32/black/yelp.png);
+}
+
+.vine-32-black {
+    background-image: url(../../img/32/black/vine.png);
+}
+
+.blog-32-black {
+    background-image: url(../../img/32/black/blog.png);
+}
+
+/* 32 gray */
+.facebook-32-gray {
+    background-image: url(../../img/32/gray/facebook.png);
+}
+
+.twitter-32-gray {
+    background-image: url(../../img/32/gray/twitter.png);
+}
+
+.instagram-32-gray {
+    background-image: url(../../img/32/gray/instagram.png);
+}
+
+.google-32-gray {
+    background-image: url(../../img/32/gray/google.png);
+}
+
+.youtube-32-gray {
+    background-image: url(../../img/32/gray/youtube.png);
+}
+
+.vimeo-32-gray {
+    background-image: url(../../img/32/gray/vimeo.png);
+}
+
+.pinterest-32-gray {
+    background-image: url(../../img/32/gray/pinterest.png);
+}
+
+.linkedin-32-gray {
+    background-image: url(../../img/32/gray/linkedin.png);
+}
+
+.flickr-32-gray {
+    background-image: url(../../img/32/gray/flickr.png);
+}
+
+.yelp-32-gray {
+    background-image: url(../../img/32/gray/yelp.png);
+}
+
+.vine-32-gray {
+    background-image: url(../../img/32/gray/vine.png);
+}
+
+.blog-32-gray {
+    background-image: url(../../img/32/gray/blog.png);
+}
+
+/* 32 white */
+.facebook-32-white {
+    background-image: url(../../img/32/white/facebook.png);
+}
+
+.twitter-32-white {
+    background-image: url(../../img/32/white/twitter.png);
+}
+
+.instagram-32-white {
+    background-image: url(../../img/32/white/instagram.png);
+}
+
+.google-32-white {
+    background-image: url(../../img/32/white/google.png);
+}
+
+.youtube-32-white {
+    background-image: url(../../img/32/white/youtube.png);
+}
+
+.vimeo-32-white {
+    background-image: url(../../img/32/white/vimeo.png);
+}
+
+.pinterest-32-white {
+    background-image: url(../../img/32/white/pinterest.png);
+}
+
+.linkedin-32-white {
+    background-image: url(../../img/32/white/linkedin.png);
+}
+
+.flickr-32-white {
+    background-image: url(../../img/32/white/flickr.png);
+}
+
+.yelp-32-white {
+    background-image: url(../../img/32/white/yelp.png);
+}
+
+.vine-32-white {
+    background-image: url(../../img/32/white/vine.png);
+}
+
+.blog-32-white {
+    background-image: url(../../img/32/white/blog.png);
+}

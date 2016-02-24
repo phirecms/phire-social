@@ -1,0 +1,18 @@
+/**
+ * Social Module Style Sheet for Phire CMS 2
+ */
+
+td.social-col {
+    padding-right: 15px;
+    width: 20%;
+    text-align: right;
+}
+
+input[type=text].social-order-field {
+    margin: 0 15px 0 15px;
+    text-align: center;
+}
+
+fieldset.social-fieldset {
+    display: inline-block;
+}

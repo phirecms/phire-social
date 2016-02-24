@@ -1,0 +1,48 @@
+<?php include $phireHeader; ?>
+    <h1 class="social-header"><?=$title; ?></h1>
+    <form id="social-form" action="<?=$phireUri . '/social'; ?>" method="post">
+        <table class="data-table" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+                <th colspan="2">&nbsp;</th>
+            </tr>
+            <tr>
+                <td class="social-col"><strong>Style:</strong></td>
+                <td>
+                    <select name="social_style" id="social_style">
+<?php
+$styles = ['shadow', 'flat', 'square', 'circle', 'color', 'black', 'gray', 'white'];
+foreach ($styles as $style): ?>
+                        <option value="<?=$style; ?>"<?=(($socialConfig['style'] == $style) ? ' selected="selected"' : ''); ?>><?=ucfirst($style); ?></option>
+<?php endforeach; ?>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="social-col"><strong>Size:</strong></td>
+                <td>
+                    <select name="social_size" id="social_size">
+<?php
+$sizes = ['small', 'medium', 'large'];
+foreach ($sizes as $size): ?>
+                        <option value="<?=$size; ?>"<?=(($socialConfig['size'] == $size) ? ' selected="selected"' : ''); ?>><?=ucfirst($size); ?></option>
+<?php endforeach; ?>
+                    </select>
+                </td>
+            </tr>
+<?php
+foreach ($socialConfig['order'] as $key => $order): ?>
+            <tr>
+                <td class="social-col"><strong><?=ucfirst($order); ?>:</strong></td>
+                <td>
+                    <input name="url_<?=$order; ?>" class="social-url-field" type="text" size="50" value="<?=$socialConfig['urls'][$order]['url']; ?>" placeholder="<?=ucfirst($order); ?> URL" />
+                    <input name="order_<?=$order; ?>" class="social-order-field" type="text" size="2" value="<?=((int)$key + 1); ?>" />
+                    <fieldset class="social-fieldset">
+                        <strong>New window?</strong> <input name="new_<?=$order; ?>" type="radio" value="1" <?=(($socialConfig['urls'][$order]['new']) ? ' checked="checked"' : ''); ?>/> <span>Yes</span> <input name="new_<?=$order; ?>" type="radio" value="0" <?=((!$socialConfig['urls'][$order]['new']) ? ' checked="checked"' : ''); ?>/> <span>No</span>
+                    </fieldset>
+                </td>
+            </tr>
+<?php endforeach; ?>
+        </table>
+        <div id="form-footer"><input type="submit" name="submit" class="process-btn" value="Process" /></div>
+    </form>
+<?php include $phireFooter; ?>
