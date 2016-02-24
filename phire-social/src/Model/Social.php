@@ -177,6 +177,7 @@ class Social extends AbstractModel
     public function buildNav()
     {
         $nav    = null;
+        $hasUrl = false;
         $config = Table\Config::findById('social_config');
 
         if (isset($config->value) && !empty($config->value) && ($config->value != '')) {
@@ -209,7 +210,12 @@ class Social extends AbstractModel
                         $a->setAttribute('target', '_blank');
                     }
                     $nav->addChild($a);
+                    $hasUrl = true;
                 }
+            }
+
+            if (!$hasUrl) {
+                $nav = null;
             }
         }
 
