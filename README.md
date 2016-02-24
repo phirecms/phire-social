@@ -1,4 +1,4 @@
-Phire SMO Module
-================
+Phire Social Media Module
+=========================
 
-Social media optimization module for Phire CMS 2
+Social media module for Phire CMS 2
