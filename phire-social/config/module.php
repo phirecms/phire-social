@@ -34,7 +34,7 @@ return [
         'install' => function() {
             $config = new \Phire\Table\Config([
                 'setting' => 'social_config',
-                'value'   => null
+                'value'   => ''
             ]);
             $config->save();
         },
