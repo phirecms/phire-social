@@ -1,5 +1,5 @@
 /**
- * Social Module Public Style Sheet for Phire CMS 2
+ * Social Module Small Public Style Sheet for Phire CMS 2
  */
 
 /* 32x32 */
@@ -77,6 +77,10 @@
     background-image: url(../../img/32/shadow/blog.png);
 }
 
+.map-32-shadow {
+    background-image: url(../../img/32/shadow/map.png);
+}
+
 /* 32 flat */
 .facebook-32-flat {
     background-image: url(../../img/32/flat/facebook.png);
@@ -124,6 +128,10 @@
 
 .blog-32-flat {
     background-image: url(../../img/32/flat/blog.png);
+}
+
+.map-32-flat {
+    background-image: url(../../img/32/flat/map.png);
 }
 
 /* 32 square */
@@ -175,6 +183,10 @@
     background-image: url(../../img/32/square/blog.png);
 }
 
+.map-32-square {
+    background-image: url(../../img/32/square/map.png);
+}
+
 /* 32 circle */
 .facebook-32-circle {
     background-image: url(../../img/32/circle/facebook.png);
@@ -222,6 +234,10 @@
 
 .blog-32-circle {
     background-image: url(../../img/32/circle/blog.png);
+}
+
+.map-32-circle {
+    background-image: url(../../img/32/circle/map.png);
 }
 
 /* 32 color */
@@ -273,6 +289,10 @@
     background-image: url(../../img/32/color/blog.png);
 }
 
+.map-32-color {
+    background-image: url(../../img/32/color/map.png);
+}
+
 /* 32 black */
 .facebook-32-black {
     background-image: url(../../img/32/black/facebook.png);
@@ -320,6 +340,10 @@
 
 .blog-32-black {
     background-image: url(../../img/32/black/blog.png);
+}
+
+.map-32-black {
+    background-image: url(../../img/32/black/map.png);
 }
 
 /* 32 gray */
@@ -371,6 +395,10 @@
     background-image: url(../../img/32/gray/blog.png);
 }
 
+.map-32-gray {
+    background-image: url(../../img/32/gray/map.png);
+}
+
 /* 32 white */
 .facebook-32-white {
     background-image: url(../../img/32/white/facebook.png);
@@ -418,4 +446,8 @@
 
 .blog-32-white {
     background-image: url(../../img/32/white/blog.png);
+}
+
+.map-32-white {
+    background-image: url(../../img/32/white/map.png);
 }

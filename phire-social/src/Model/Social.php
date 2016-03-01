@@ -56,7 +56,8 @@ class Social extends AbstractModel
                     'pinterest',
                     'flickr',
                     'linkedin',
-                    'blog'
+                    'blog',
+                    'map'
                 ],
                 'urls'  => [
                     'facebook'  => [
@@ -104,6 +105,10 @@ class Social extends AbstractModel
                         'new'   => true
                     ],
                     'blog'      => [
+                        'url'   => '',
+                        'new'   => true
+                    ],
+                    'map'      => [
                         'url'   => '',
                         'new'   => true
                     ]
