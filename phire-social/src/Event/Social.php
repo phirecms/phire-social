@@ -34,13 +34,13 @@ class Social
     {
         if (($controller->hasView()) && ($controller instanceof \Phire\Content\Controller\IndexController)) {
             $body = $controller->response()->getBody();
-            if (strpos($body, '[{social_nav}]') !== false) {
+            if (strpos($body, '[{social_nav') !== false) {
                 $social = new Model\Social();
-                $body   = str_replace('[{social_nav}]', $social->buildNav(), $body);
-
-                if (strpos($body, '[{social_nav_styles}]') !== false) {
-                    $body = str_replace('[{social_nav_styles}]', $social->getStyles(), $body);
-                }
+                $body   = str_replace(
+                    ['[{social_nav}]', '[{social_nav_styles}]'],
+                    [$social->buildNav(), $social->getStyles()],
+                    $body
+                );
 
                 $controller->response()->setBody($body);
             }
