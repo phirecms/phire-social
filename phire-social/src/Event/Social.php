@@ -32,7 +32,7 @@ class Social
      */
     public static function parse(AbstractController $controller, Application $application)
     {
-        if (($controller->hasView()) && ($controller instanceof \Phire\Content\Controller\IndexController)) {
+        if (($controller->hasView()) && (($controller instanceof \Phire\Content\Controller\IndexController) || ($controller instanceof \Phire\Categories\Controller\IndexController))) {
             $body = $controller->response()->getBody();
             if (strpos($body, '[{social_nav') !== false) {
                 $social = new Model\Social();
