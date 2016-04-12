@@ -82,6 +82,14 @@
     background-image: url(../../img/64/shadow/map.png);
 }
 
+.tumblr-48-shadow {
+    background-image: url(../../img/64/shadow/tumblr.png);
+}
+
+.soundcloud-48-shadow {
+    background-image: url(../../img/64/shadow/soundcloud.png);
+}
+
 /* 48 flat */
 .facebook-48-flat {
     background-image: url(../../img/64/flat/facebook.png);
@@ -133,6 +141,14 @@
 
 .map-48-flat {
     background-image: url(../../img/64/flat/map.png);
+}
+
+.tumblr-48-flat {
+    background-image: url(../../img/64/flat/tumblr.png);
+}
+
+.soundcloud-48-flat {
+    background-image: url(../../img/64/flat/soundcloud.png);
 }
 
 /* 48 square */
@@ -188,6 +204,14 @@
     background-image: url(../../img/64/square/map.png);
 }
 
+.tumblr-48-square {
+    background-image: url(../../img/64/square/tumblr.png);
+}
+
+.soundcloud-48-square {
+    background-image: url(../../img/64/square/soundcloud.png);
+}
+
 /* 48 circle */
 .facebook-48-circle {
     background-image: url(../../img/64/circle/facebook.png);
@@ -239,6 +263,14 @@
 
 .map-48-circle {
     background-image: url(../../img/64/circle/map.png);
+}
+
+.tumblr-48-circle {
+    background-image: url(../../img/64/circle/tumblr.png);
+}
+
+.soundcloud-48-circle {
+    background-image: url(../../img/64/circle/soundcloud.png);
 }
 
 /* 48 color */
@@ -294,6 +326,14 @@
     background-image: url(../../img/64/color/map.png);
 }
 
+.tumblr-48-color {
+    background-image: url(../../img/64/color/tumblr.png);
+}
+
+.soundcloud-48-color {
+    background-image: url(../../img/64/color/soundcloud.png);
+}
+
 /* 48 black */
 .facebook-48-black {
     background-image: url(../../img/64/black/facebook.png);
@@ -345,6 +385,14 @@
 
 .map-48-black {
     background-image: url(../../img/64/black/map.png);
+}
+
+.tumblr-48-black {
+    background-image: url(../../img/64/black/tumblr.png);
+}
+
+.soundcloud-48-black {
+    background-image: url(../../img/64/black/soundcloud.png);
 }
 
 /* 48 gray */
@@ -400,6 +448,14 @@
     background-image: url(../../img/64/gray/map.png);
 }
 
+.tumblr-48-gray {
+    background-image: url(../../img/64/gray/tumblr.png);
+}
+
+.soundcloud-48-gray {
+    background-image: url(../../img/64/gray/soundcloud.png);
+}
+
 /* 48 white */
 .facebook-48-white {
     background-image: url(../../img/64/white/facebook.png);
@@ -451,4 +507,12 @@
 
 .map-48-white {
     background-image: url(../../img/64/white/map.png);
+}
+
+.tumblr-48-white {
+    background-image: url(../../img/64/white/tumblr.png);
+}
+
+.soundcloud-48-white {
+    background-image: url(../../img/64/white/soundcloud.png);
 }
