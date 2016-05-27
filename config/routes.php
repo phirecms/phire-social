@@ -1,5 +1,7 @@
 <?php
-
+/**
+ * phire-social routes
+ */
 return [
     APP_URI => [
         '/social[/]' => [

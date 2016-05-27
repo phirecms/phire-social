@@ -1,11 +1,32 @@
 <?php
+/**
+ * Phire Social Module
+ *
+ * @link       https://github.com/phirecms/phire-social
+ * @author     Nick Sagona, III <dev@nolainteractive.com>
+ * @copyright  Copyright (c) 2009-2016 NOLA Interactive, LLC. (http://www.nolainteractive.com)
+ * @license    http://www.phirecms.org/license     New BSD License
+ */
 
+/**
+ * @namespace
+ */
 namespace Phire\Social\Model;
 
 use Phire\Model\AbstractModel;
 use Phire\Table;
 use Pop\Dom\Child;
 
+/**
+ * Social Model class
+ *
+ * @category   Phire\Social
+ * @package    Phire\Social
+ * @author     Nick Sagona, III <dev@nolainteractive.com>
+ * @copyright  Copyright (c) 2009-2016 NOLA Interactive, LLC. (http://www.nolainteractive.com)
+ * @license    http://www.phirecms.org/license     New BSD License
+ * @version    1.0.0
+ */
 class Social extends AbstractModel
 {
 

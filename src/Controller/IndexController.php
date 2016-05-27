@@ -1,10 +1,31 @@
 <?php
+/**
+ * Phire Social Module
+ *
+ * @link       https://github.com/phirecms/phire-social
+ * @author     Nick Sagona, III <dev@nolainteractive.com>
+ * @copyright  Copyright (c) 2009-2016 NOLA Interactive, LLC. (http://www.nolainteractive.com)
+ * @license    http://www.phirecms.org/license     New BSD License
+ */
 
+/**
+ * @namespace
+ */
 namespace Phire\Social\Controller;
 
 use Phire\Social\Model;
 use Phire\Controller\AbstractController;
 
+/**
+ * Social Index Controller class
+ *
+ * @category   Phire\Social
+ * @package    Phire\Social
+ * @author     Nick Sagona, III <dev@nolainteractive.com>
+ * @copyright  Copyright (c) 2009-2016 NOLA Interactive, LLC. (http://www.nolainteractive.com)
+ * @license    http://www.phirecms.org/license     New BSD License
+ * @version    1.0.0
+ */
 class IndexController extends AbstractController
 {
 
