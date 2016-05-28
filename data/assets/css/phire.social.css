@@ -16,3 +16,17 @@ input[type=text].social-order-field {
 fieldset.social-fieldset {
     display: inline-block;
 }
+
+.social-header {
+    margin: 10px 0 10px 0;
+    padding: 10px 0 10px 0;
+}
+
+.social-header:before {
+    font-family: "FontAwesome";
+    font-weight: normal;
+    content: "\f086";
+    margin: 0;
+    padding: 0 8px 0 0;
+    color: #b4b5b4;
+}
